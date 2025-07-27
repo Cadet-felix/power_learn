@@ -1,0 +1,5 @@
+# input two numbers and a mathematical operation addition
+FirstNum = input("type the first number")
+SecondNum = input("type in the second number")
+MathsOp = input("type in a mathematical operator; addition, subtraction, multiplication, or division")
+    print(FirstNum MathsOp SecondNum)
