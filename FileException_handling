@@ -1,0 +1,13 @@
+filename = input("Enter the filename: ")
+
+try:
+    with open(filename, "r") as file:
+        content = file.read()
+
+    with open("modified_" + filename, "w") as new_file:
+        new_file.write(content.upper())
+
+    print("File modified and saved successfully.")
+
+except:
+    print("Error: Could not read the file.")
